@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="460dp" android:layout_height="wrap_content" android:orientation="vertical"
+    android:gravity="center_horizontal" android:padding="32dp" android:background="@drawable/dialog_bg">
+    <ImageView android:layout_width="96dp" android:layout_height="96dp" android:src="@drawable/ic_logo"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+        android:text="AK TV" android:textColor="#FFFFFF" android:textSize="28sp" android:fontFamily="sans-serif-medium"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp"
+        android:text="Created by Akshansh Sahu" android:textColor="#0A84FF" android:textSize="18sp"
+        android:fontFamily="sans-serif-medium"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp"
+        android:text="Enjoy your live channels" android:textColor="#8E8E93" android:textSize="14sp"/>
+    <TextView android:id="@+id/okBtn" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="24dp" android:paddingStart="48dp" android:paddingEnd="48dp"
+        android:paddingTop="12dp" android:paddingBottom="12dp" android:text="Continue" android:textColor="#FFFFFF"
+        android:textSize="16sp" android:fontFamily="sans-serif-medium" android:focusable="true"
+        android:clickable="true" android:background="@drawable/btn_bg"><requestFocus/></TextView>
+</LinearLayout>
